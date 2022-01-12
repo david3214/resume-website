@@ -1,0 +1,39 @@
+{ 
+  "experience": [
+    {
+      "id": 3,
+      "company": "Security Metrics",
+      "jobTitle": "Software Intern",
+      "year": "2020",
+      "logo": "SM.jpeg",
+      "jobDescriptions": [
+        "Fixed bugs and made improvements to the company's website written in Angular for a smoother and more intuitive user experience.",
+        "Updated all unit tests on the backend to have 100% coverage, ensuring tests were written for functions before they are completed.",
+        "Migrated  all backend Python code to Python 3 before Python 2 lost support, and learned the value of well documented code for future developers."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Hexly",
+      "jobTitle": "Junior Software Developer",
+      "year": "2020",
+      "logo": "hexly.jpeg",
+      "jobDescriptions": [
+        "Used Javascript, Node, Vue, PostgreSQL, d3js, and Apollo GraphQL to maintain and build various partner websites and learned the value of modularization.",
+        "Created a d3 tree graph for viewing sales under a sales team, complete with sales stats for each individual team member, and the teams under those members as well.",
+        "Developed strong interpersonal skills and learned to balance priorities working with our development team and multiple partner companies leaders."
+      ]
+    },
+    {
+      "id": 1,
+      "company": "Hexly",
+      "jobTitle": "Software Intern",
+      "year": "2019 - 2020",
+      "logo": "hexly.jpeg",
+      "jobDescriptions": [
+        "Implemented tests with production pipeline run through Concourse and Docker allowing all changes made the the project to instantly be tested before merging to master.",
+        "Tightened security around access to the database."
+      ]
+    }
+  ]
+}

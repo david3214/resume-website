@@ -1,24 +1,21 @@
 <template>
   <v-app>
-    
+    <router-view/>
     <Header />
-    <v-main>
-      <HelloWorld/>
-      <Footer/>
-    </v-main>
+    <Footer/>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+// import HelloWorld from './components/HelloWorld';
 import Footer from './components/Footer.vue'
-import Header from './components/Header.vue';
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    // HelloWorld,
     Footer,
     Header
   },
@@ -28,3 +25,9 @@ export default {
   }),
 };
 </script>
+
+<style>
+.v-main {
+  padding: 0px !important;;
+}
+</style>
