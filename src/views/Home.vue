@@ -12,7 +12,7 @@
     Self motivated, with excellent skills — can hit the ground running. Seeking part-time position while completing schooling
   </h4>
   <PictureQuote 
-    src="Side Desk.jpg" 
+    src="dev-photo.jpeg" 
     :leftImg='true' 
     description='Description' 
     title='My Work Experience'

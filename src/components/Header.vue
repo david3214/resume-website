@@ -39,7 +39,7 @@
       <v-col cols='2'>
         <v-btn
           class="white--text"
-          href=""
+          href="https://www.linkedin.com/in/david-westwood-01354b225"
           target="_blank"
           icon
         >
@@ -96,7 +96,7 @@
         <v-spacer />
         <v-btn
           class="white--text mt-n1"
-          href=""
+          href="https://www.linkedin.com/in/david-westwood-01354b225"
           target="_blank"
           icon
         >

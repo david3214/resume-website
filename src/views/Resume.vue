@@ -1,10 +1,8 @@
 <template>
   <v-main>
     <v-img
-    src='../assets/Top Desk.jpg'
-    height='250px'
-    >
-  </v-img>
+    src='../assets/Dark-office.jpg'
+    height='250px'/>
     <h1 class='titleText white--text'>Resume</h1>
     <h1 align='center'>Top Software Skills</h1>
     <v-row class='skills' justify='center'>
@@ -55,7 +53,7 @@ export default {
 <style scoped>
 .titleText {
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
