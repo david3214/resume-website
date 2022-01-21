@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "overlayscrollbars-vue": "^0.2.2",
+    "simplebar-vue": "^1.6.8",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
     "vuetify": "^2.4.0"
