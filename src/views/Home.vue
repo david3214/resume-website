@@ -29,7 +29,7 @@
     <v-row class='quoteRow'>
       <v-col cols='12' sm='6'>
         <h2>"Some Quote about my work ethic, skills, etc, need to ask Jerome for something"</h2>
-        <p>- Jerome Broekhuijsen, Team Lead at Security Metrics</p>
+        <p>- Jerome Broekhuijsen, Development Manager at Security Metrics</p>
       </v-col>
       <v-col cols='12' sm='6'>
         <h2>"Some Quote about my work ethic, skills, etc, need to ask Dave for something"</h2>
