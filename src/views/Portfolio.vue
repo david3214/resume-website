@@ -6,31 +6,63 @@
     />
     <h1 class='titleText white--text'>Portfolio</h1>
     <v-card elevation="0">
-      <v-row>
+      <h1 align="center" class='mt-2'>Page Interaction Manager</h1>
+      <v-row align="center">
         <v-col>
-          <h1 align="center">Page Interaction Manager</h1>
-          <iframe
-            class="video"
-            :src="missionaryTools"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <v-card-text class='description'>Created and maintained a Google Sheets Add-on that connects with Facebook, to pull data so whenever someone likes a post or an ad, it would insert their profile link, and the link of the post/ad, into the connected google sheet. Modularized it to be used globally, and currently have over 150 different facebook pages using this add-on. Stored relevant data to connect the different services in a SQL database stored on Google Cloud. Deployed the project on Google Cloud using Kubernetes.</v-card-text>
+          <v-img class='media' src='../assets/PIM.png' />
+        </v-col>
+        <v-col align="center">
+          <v-btn
+            href="https://www.youtube.com/watch?v=Ond_B8z03W0"
+            target="_blank"
+            class="githubButton"
+            rounded
+            text
+          >
+            <v-icon class='githubIcon' size="50px">
+              mdi-youtube
+            </v-icon>
+            View on Youtube
+          </v-btn>
+          <v-btn
+            href="https://github.com/david3214/Page-Interaction-Manager"
+            target="_blank"
+            class="githubButton"
+            rounded
+            text
+          >
+            <v-icon class='githubIcon' size="50px">
+              mdi-github
+            </v-icon>
+            View on Github
+          </v-btn>
         </v-col>
       </v-row>
       <v-row>
+        <v-card-text class='description'>Created and maintained a Google Sheets Add-on that connects with Facebook, to pull data so whenever someone likes a post or an ad, it would insert their profile link, and the link of the post/ad, into the connected google sheet. Modularized it to be used globally, and currently have over 150 different facebook pages using this add-on. Stored relevant data to connect the different services in a SQL database stored on Google Cloud. Deployed the project on Google Cloud using Kubernetes.</v-card-text>
+      </v-row>
+      <h1 align="center">Contacts Updater</h1>
+      <v-row align="center">
         <v-col>
-          <h1 align="center">Contacts Updater</h1>
-          <iframe
-            class="video"
-            :src="missionaryTools"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <v-card-text class="description">A Google Apps Script Library enabling contacts from one account to sync across hundreds of accounts with a given frequency. Done by creating a trigger, that runs every given time frame,  to export the contacts from one Google account into a Google sheet. It then creates a trigger for each user to import these contacts into their account. Dealt with duplicate contacts, updating instead of replacing old contacts, and staying under api limits. Created completely via Google Apps Script and Google Sheets.</v-card-text>
+          <v-img class='media' src='../assets/ContactUpdater.png' />
         </v-col>
+        <v-col align="center">
+          <v-btn
+            class="githubButton"
+            rounded
+            text
+            href="https://github.com/walkwithchrist/contacts-updater"
+            target="_blank"
+          >
+            <v-icon class='githubIcon' size="50px">
+              mdi-github
+            </v-icon>
+            View on Github
+          </v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-card-text class="description">A Google Apps Script Library enabling contacts from one account to sync across hundreds of accounts with a given frequency. Done by creating a trigger, that runs every given time frame,  to export the contacts from one Google account into a Google sheet. It then creates a trigger for each user to import these contacts into their account. Dealt with duplicate contacts, updating instead of replacing old contacts, and staying under api limits. Created completely via Google Apps Script and Google Sheets.</v-card-text>
       </v-row>
     </v-card>
   </v-main>
@@ -50,10 +82,23 @@ export default {
 <style scoped>
 .titleText {
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+  font-size: clamp(3em, 7vw, 3.5em);
+}
+
+.githubButton {
+  height: 50px !important;;
+}
+
+.githubIcon{
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: clamp(1.5em, 5vw, 3.5em)
 }
 
 .description {
@@ -67,7 +112,7 @@ export default {
 .row {
   margin: 0;
 }
-.video {
+.media {
   display: block;
   margin: 2% auto;
   width: 50vw; /* 16/9 aspect ration*/

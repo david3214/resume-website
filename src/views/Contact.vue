@@ -10,9 +10,10 @@
 <style scoped>
 .titleText {
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+  font-size: clamp(3em, 7vw, 3.5em);
 }
 </style>

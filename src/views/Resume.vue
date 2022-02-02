@@ -53,15 +53,20 @@ export default {
 <style scoped>
 .titleText {
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+  font-size: clamp(3em, 7vw, 3.5em);
 }
 
 .skills {
   margin-inline: 5%;
   margin-block: 10px;
+}
+
+h1 {
+  font-size: clamp(1.5em, 5vw, 3.5em)
 }
 
 .column {

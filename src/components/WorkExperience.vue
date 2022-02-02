@@ -6,8 +6,8 @@
           <v-card-text class='mt-n5 year' align='center'>{{year}}</v-card-text>
         </v-col>
         <v-col cols='12' sm='8'>
-          <v-card-title class='positionTitle'>{{jobTitle}}</v-card-title>
-          <v-card-title class='companyTitle'>{{company}}</v-card-title>
+          <v-card-text class='positionTitle pb-n4' v-html="jobTitle">{{jobTitle}}</v-card-text>
+          <v-card-text class='companyTitle'>{{company}}</v-card-text>
           <ul class='ml-5'>
             <li v-for="item in descriptions" :key='item' class='descriptionList'>
               {{item}}
@@ -24,11 +24,19 @@ export default {
   data: ()=> {
     return {
     }
+  },
+  created(){
+    if(this.$props?.jobTitle.includes('(Intern)'))
+      this.$props.jobTitle = this.$props.jobTitle.replace('(Intern)', '<p class="internText">(Intern)</p>')
   }
 }
 </script>
 
-<style scoped>
+<style>
+.v-card__text {
+  padding: 14px 10px;
+}
+
 .cardContainer {
   margin-block: 75px;
   margin-inline: 5%;
@@ -37,32 +45,29 @@ export default {
 }
 
 .positionTitle{
-  font-size: 4vw;
+  font-size: clamp(1.5em, 5vw, 3.5em);
+  font-weight: 500;
+  line-height: 1rem;
 }
 
 .companyTitle {
   font-weight: 500;
-  font-size: 3vw;
+  font-size: clamp(1.3em, 4vw, 3em);
 }
 
 .descriptionList {
-  font-size: 1rem;
+  font-size: clamp(1.1rem, 1.5vw, 2rem);
 }
 
 .year {
   position: relative;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: clamp(1.5rem, 1.5vw, 2rem);
 }
-@media (max-width: 600px) {
-  .positionTitle{
-    font-size: 6vw;
-  }
-  .companyTitle {
-    font-size: 5vw;
-  }
-  .year {
-    font-size: 2rem;
-  }
+
+p.internText { 
+  display: inline;
+  margin-left: -5px;
+  font-size: clamp(0.5em, 1vw, 1em)
 }
 </style>

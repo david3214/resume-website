@@ -3,7 +3,7 @@
     {
       "id": 3,
       "company": "Security Metrics",
-      "jobTitle": "Software Intern",
+      "jobTitle": "Backend Python (Intern)",
       "year": "2020",
       "logo": "SM.jpeg",
       "jobDescriptions": [
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "company": "Hexly",
-      "jobTitle": "Junior Software Developer",
+      "jobTitle": "Jr Full-Stack Developer",
       "year": "2020",
       "logo": "hexly.jpeg",
       "jobDescriptions": [
@@ -27,7 +27,7 @@
     {
       "id": 1,
       "company": "Hexly",
-      "jobTitle": "Software Intern",
+      "jobTitle": "Full-Stack (Intern)",
       "year": "2019 - 2020",
       "logo": "hexly.jpeg",
       "jobDescriptions": [

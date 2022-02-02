@@ -5,11 +5,11 @@
     height='400px'
     >
   </v-img>
-  <h1 class="title white--text">
+  <h1 class="titleText white--text">
     Software Developer
   </h1>
   <h4 class="description white--text">
-    Self motivated, with excellent skills — can hit the ground running. Seeking part-time position while completing schooling
+    Self motivated, with excellent skills — can hit the ground running.
   </h4>
   <PictureQuote 
     src="dev-photo.jpeg" 
@@ -28,11 +28,11 @@
     />
     <v-row class='quoteRow'>
       <v-col cols='12' sm='6'>
-        <h2>"Some Quote about my work ethic etc, need to ask Jerome for something"</h2>
+        <h2>"Some Quote about my work ethic, skills, etc, need to ask Jerome for something"</h2>
         <p>- Jerome Broekhuijsen, Team Lead at Security Metrics</p>
       </v-col>
       <v-col cols='12' sm='6'>
-        <h2>"Some Quote about my work ethic etc, need to ask Dave for something"</h2>
+        <h2>"Some Quote about my work ethic, skills, etc, need to ask Dave for something"</h2>
         <p>- Dave Welch, CEO at Hexly</p>
       </v-col>
     </v-row>
@@ -53,12 +53,13 @@ export default {
 </script>
 
 <style scoped>
-.title {
+.titleText {
   position: absolute;
   top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+  font-size: clamp(2.2em, 7vw, 3.5em);
 }
 
 .description {
