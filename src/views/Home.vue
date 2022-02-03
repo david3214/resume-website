@@ -15,7 +15,7 @@
     src="dev-photo.jpeg" 
     :leftImg='true' 
     description='Previously worked as a Full-Stack Developer, Backend Developer, and more.' 
-    title='Davids 3+ Years of Experience'
+    title="David's 3+ Years of Experience"
     btnText="Learn More"
     destination='/resume'/>
   <PictureQuote 
