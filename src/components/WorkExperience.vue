@@ -6,7 +6,7 @@
           <v-card-text class='mt-n5 year' align='center'>{{year}}</v-card-text>
         </v-col>
         <v-col cols='12' sm='8'>
-          <v-card-text class='positionTitle pb-n4' v-html="jobTitle">{{jobTitle}}</v-card-text>
+          <v-card-text class='positionTitle pb-n4' v-html="jTitle">{{jTitle}}</v-card-text>
           <v-card-text class='companyTitle'>{{company}}</v-card-text>
           <ul class='ml-5'>
             <li v-for="item in descriptions" :key='item' class='descriptionList'>
@@ -26,8 +26,13 @@ export default {
     }
   },
   created(){
-    if(this.$props?.jobTitle.includes('(Intern)'))
-      this.$props.jobTitle = this.$props.jobTitle.replace('(Intern)', '<p class="internText">(Intern)</p>')
+  },
+  computed: {
+    jTitle() {
+      if(this.$props?.jobTitle.includes('(Intern)'))
+        return this.$props.jobTitle.replace('(Intern)', '<p class="internText">(Intern)</p>')
+      return this.$props.jobTitle
+    }
   }
 }
 </script>

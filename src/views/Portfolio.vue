@@ -102,7 +102,9 @@ h1 {
 }
 
 .description {
-  font-size: 1rem;
+  font-size: clamp(1.1rem, 1.5vw, 2rem);
+  line-height: 30px;
+  font-weight: 300;
 }
 
 .v-card {

@@ -14,19 +14,19 @@
   <PictureQuote 
     src="dev-photo.jpeg" 
     :leftImg='true' 
-    description='Description' 
-    title='My Work Experience'
+    description='Previously worked as a Full-Stack Developer, Backend Developer, and more.' 
+    title='Davids 3+ Years of Experience'
     btnText="Learn More"
     destination='/resume'/>
   <PictureQuote 
     src="Top Desk.jpg" 
     :leftImg='false' 
-    description='Check out my projects' 
+    description='With a variety of projects using tools ranging from Kubernetes on Google Cloud to a Google App Script project, view the projects that have refined my skills.' 
     title='My Projects'
     btnText='View Portfolio'
     destination='/portfolio'
     />
-    <v-row class='quoteRow'>
+    <v-row v-if='false' class='quoteRow'>
       <v-col cols='12' sm='6'>
         <h2>"Some Quote about my work ethic, skills, etc, need to ask Jerome for something"</h2>
         <p>- Jerome Broekhuijsen, Development Manager at Security Metrics</p>
