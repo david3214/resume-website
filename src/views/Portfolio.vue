@@ -7,6 +7,7 @@
     <h1 class='titleText white--text'>Portfolio</h1>
     <v-card elevation="0">
       <h1 align="center" class='mt-2'>Page Interaction Manager</h1>
+      <h3 align="center" class="priceDescription mt-n2 mb-n3">This project recently sold for $20,000</h3>
       <v-row align="center">
         <v-col>
           <v-img class='media' src='../assets/PIM.png' />
@@ -121,5 +122,10 @@ h1 {
   height: 28.125vw;
   min-width: 300px;
   min-height: 168.75px;
+}
+
+.priceDescription {
+  font-style: italic;
+  font-size: clamp(1em, 2vw, 2em);
 }
 </style>
