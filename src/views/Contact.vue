@@ -7,7 +7,7 @@
     <v-row class="my-3" align='center'>
         <v-col justify='start' align='center'>
           <h2 >How to find me</h2>
-          <v-img class="picture" src="../assets/Sitting By Rocks.jpeg"/>
+          <v-img class="picture" src="../assets/ProgrammerIcon.png"/>
           <h3>Email</h3>
           <a href='mailto:davidw3214@gmail.com'>davidw3214@gmail.com</a>
         </v-col>
