@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Contact from '../views/Contact.vue'
+import PrivacyPolicy from '../views/PrivacyPolicy.vue'
 import CreativeProject from '../views/CreativeProject/CreativeProject.vue'
 import CommunicationImpact from '../views/CreativeProject/CommunicationImpact.vue'
 import DecodingMessages from '../views/CreativeProject/DecodingMessages.vue'
@@ -31,6 +32,11 @@ const routes = [
     path: '/portfolio',
     name: 'Portfolio',
     component: Portfolio
+  },
+  {
+    path: '/privacy-policy',
+    name: 'Privacy Policy',
+    component: PrivacyPolicy
   },
   {
     path: '/creative-project',
