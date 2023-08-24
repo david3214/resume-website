@@ -1,6 +1,18 @@
 { 
   "experience": [
     {
+      "id": 4,
+      "company": "Wavetronix",
+      "jobTitle": "Computer Science (Intern)",
+      "year": "2022-Current",
+      "logo": "Wx.jpeg",
+      "jobDescriptions": [
+        "Spearheaded and contributed to the development of major features in Crossroads, a global traffic simulation application used in diverse settings, including universities for educational purposes.",
+        "Overcame technical challenges by successfully refactoring a complex legacy codebase and emphasizing user-centric design, significantly enhancing the usability and aesthetic appeal of the application.",
+        "Led the development of a novel Corridor Simulation feature, implementing space-time diagrams and controller updates for offset timings, expanding the application's capabilities and user versatility."
+      ]
+    },
+    {
       "id": 3,
       "company": "Security Metrics",
       "jobTitle": "Backend Python (Intern)",

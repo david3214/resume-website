@@ -7,7 +7,7 @@
     <h1 class='titleText white--text'>Portfolio</h1>
     <v-card elevation="0">
       <h1 align="center" class='mt-2'>Page Interaction Manager</h1>
-      <h3 align="center" class="priceDescription mt-n2 mb-n3">This project recently sold for $20,000</h3>
+      <h3 align="center" class="priceDescription mt-n2 mb-n3">This project sold for $20,000</h3>
       <v-row align="center">
         <v-col>
           <v-img class='media' src='../assets/PIM.png' />
@@ -40,7 +40,30 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-card-text class='description'>Created and maintained a Google Sheets Add-on that connects with Facebook, to pull data so whenever someone likes a post or an ad, it would insert their profile link, and the link of the post/ad, into the connected google sheet. Modularized it to be used globally, and currently have over 150 different facebook pages using this add-on. Stored relevant data to connect the different services in a SQL database stored on Google Cloud. Deployed the project on Google Cloud using Kubernetes.</v-card-text>
+        <v-card-text class='description'>I created and maintained a Google Sheets Add-on that connects with Facebook, to pull data so whenever someone likes a post or an ad, it would insert their profile link, and the link of the post/ad, into the connected google sheet. Modularized it to be used globally, and before selling it I had over 150 different facebook pages using this add-on. Stored relevant data to connect the different services in a SQL database stored on Google Cloud. I deployed the project on Google Cloud using Kubernetes.</v-card-text>
+      </v-row>
+      <h1 align="center" class='mt-2'>Crossroads</h1>
+      <v-row align="center">
+        <v-col>
+          <v-img class='media' src='../assets/Crossroads.jpeg' />
+        </v-col>
+        <v-col align="center">
+          <v-btn
+            href="https://www.wavetronix.com/crossroads"
+            target="_blank"
+            class="githubButton"
+            rounded
+            text
+          >
+            <v-img src="../assets/Wx.jpg" width='30px' class="mr-2"/>
+            View Product
+          </v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-card-text class='description'>
+          During my tenure as a Computer Science Intern at Wavetronix, I played a pivotal role in the development and success of Crossroads, a global traffic simulation application. My contributions significantly shaped the refactoring of a complex legacy codebase, thereby enhancing the overall functionality and user-centric design of the application. I spearheaded the design and implementation of several major features, including the pioneering Corridor Simulation module, further diversifying the application's capabilities. My work received both internal recognition and external appreciation, with the project being showcased at trade shows and gaining interest from educational institutions worldwide.
+        </v-card-text>
       </v-row>
       <h1 align="center">Contacts Updater</h1>
       <v-row align="center">

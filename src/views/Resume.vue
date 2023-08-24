@@ -7,18 +7,18 @@
     <h1 align='center'>Top Software Skills</h1>
     <v-row class='skills' justify='center'>
       <v-col cols='12' sm='6' align='center' class='column'>
-        <p>HTML, CSS, Javascript, Typescript</p>
-        <p>Vue, Angular, React/React-Native</p>
+        <p>HTML, CSS, Javascript, C#</p>
+        <p>Vue, WPF, React/React-Native, Angular</p>
         <p>SQL, Postgres</p>
-        <p>Docker</p>
+        <p>Prompt Engineering</p>
         <p>Agile Methodology</p>
       </v-col>
       <v-col cols='12' sm='6' align='center' class='column'>
-        <p>Kubernetes</p>
-        <p>Github</p>
+        <p>Docker, Kubernetes</p>
+        <p>Git</p>
         <p>RabbitMQ</p>
         <p>NodeJS</p>
-        <p>C#, C++, Python</p>
+        <p>C++, Python</p>
       </v-col>
     </v-row>
     <hr>
