@@ -58,8 +58,17 @@ export default {
   top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: fit-content;
+  width: 500px;
   font-size: clamp(2.2em, 6vw, 3.5em);
+  text-align: center;
+}
+
+/* Title text for small screens, adjust the width and top positions */
+@media only screen and (max-width: 600px) {
+  .titleText {
+    width: 300px;
+    top: 150px;
+  }
 }
 
 .description {
