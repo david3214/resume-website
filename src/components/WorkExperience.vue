@@ -2,11 +2,11 @@
     <v-card class='cardContainer' elevation='0'>
       <v-row>
         <v-col sm='3'>
-          <v-img :src='require(`@/assets/${logo}`)' width='200px' class='mx-auto'/>
-          <v-card-text class='mt-n5 year' align='center'>{{year}}</v-card-text>
+          <v-img :src='require(`@/assets/${logo}`)' width='175px' class='mx-auto'/>
+          <v-card-text class='mt-n2 year' align='center'>{{year}}</v-card-text>
         </v-col>
         <v-col cols='12' sm='8'>
-          <v-card-text class='positionTitle pb-n4' v-html="jTitle">{{jTitle}}</v-card-text>
+          <v-card-text class='positionTitle pb-n4' v-html="jTitle"></v-card-text>
           <v-card-text class='companyTitle'>{{company}}</v-card-text>
           <ul class='ml-5'>
             <li v-for="item in descriptions" :key='item' class='descriptionList'>
@@ -50,24 +50,24 @@ export default {
 }
 
 .positionTitle{
-  font-size: clamp(1.5em, 5vw, 3.5em);
+  font-size: clamp(1.5em, 5vw, 3.0em);
   font-weight: 500;
   line-height: 1rem;
 }
 
 .companyTitle {
   font-weight: 500;
-  font-size: clamp(1.3em, 4vw, 3em);
+  font-size: clamp(1.3em, 4vw, 2.5em);
 }
 
 .descriptionList {
-  font-size: clamp(1.1rem, 1.5vw, 2rem);
+  font-size: clamp(1.1rem, 1.5vw, 1.7rem);
 }
 
 .year {
   position: relative;
   font-weight: bold;
-  font-size: clamp(1.5rem, 1.5vw, 2rem);
+  font-size: clamp(1.5rem, 1.5vw, 1.7rem);
 }
 
 p.internText { 

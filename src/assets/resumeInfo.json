@@ -1,10 +1,22 @@
 { 
   "experience": [
     {
+      "id": 5,
+      "company": "Foundation Source",
+      "jobTitle": "Jr Software Engineer",
+      "year": "2023-Current",
+      "logo": "FS_Logo.jpeg",
+      "jobDescriptions": [
+        "Transitioned seamlessly from frontend React development to leading backend C# tooling efforts, contributing to key system enhancements and backend optimizations.",
+        "Created comprehensive onboarding documentation for new developers, detailing hardware setup, team responsibilities, and streamlined legacy codebase processes, ensuring smoother transitions and knowledge sharing across the team.",
+        "Played a pivotal role in preparing the application for Enterprise Partner integration, ensuring scalability, security, and performance improvements across backend systems."
+      ]
+    },
+    {
       "id": 4,
       "company": "Wavetronix",
       "jobTitle": "Computer Science (Intern)",
-      "year": "2022-Current",
+      "year": "2022-2023",
       "logo": "Wx.jpeg",
       "jobDescriptions": [
         "Spearheaded and contributed to the development of major features in Crossroads, a global traffic simulation application used in diverse settings, including universities for educational purposes.",

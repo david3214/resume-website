@@ -55,7 +55,7 @@
             rounded
             text
           >
-            <v-img src="../assets/Wx.jpg" width='30px' class="mr-2"/>
+            <v-img src="../assets/Wx.jpeg" width='30px' class="mr-2"/>
             View Product
           </v-btn>
         </v-col>
@@ -64,6 +64,15 @@
         <v-card-text class='description'>
           During my tenure as a Computer Science Intern at Wavetronix, I played a pivotal role in the development and success of Crossroads, a global traffic simulation application. My contributions significantly shaped the refactoring of a complex legacy codebase, thereby enhancing the overall functionality and user-centric design of the application. I spearheaded the design and implementation of several major features, including the pioneering Corridor Simulation module, further diversifying the application's capabilities. My work received both internal recognition and external appreciation, with the project being showcased at trade shows and gaining interest from educational institutions worldwide.
         </v-card-text>
+      </v-row>
+      <h1 align="center">Compiler</h1>
+      <v-row align="center">
+        <v-col>
+          <v-img class='fullMedia' src='../assets/CompilerExample.jpeg' />
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-card-text class="description">As part of my capstone project for a Bachelor's degree, I developed a fully functional compiler for a C-like language using C++. The compiler featured complete lexical analysis, syntax parsing, and semantic analysis, supporting both stack and heap memory allocation. It generated assembly code that was executed by a custom assembler and virtual machine, enabling object-oriented programming with basic memory management. The project demonstrated a strong grasp of compiler theory and language design, with key components like object support and memory handling built from scratch. This solo project exemplified my ability to tackle complex technical challenges independently.</v-card-text>
       </v-row>
       <h1 align="center">Contacts Updater</h1>
       <v-row align="center">
@@ -127,7 +136,7 @@ h1 {
 
 .description {
   font-size: clamp(1.1rem, 1.5vw, 2rem);
-  line-height: 30px;
+  line-height: clamp(1.3rem, 3vw, 2.5rem);
   font-weight: 300;
 }
 
@@ -143,6 +152,15 @@ h1 {
   margin: 2% auto;
   width: 50vw; /* 16/9 aspect ration*/
   height: 28.125vw;
+  min-width: 300px;
+  min-height: 168.75px;
+}
+
+.fullMedia {
+  display: block;
+  margin: 2% auto;
+  width: 75vw;
+  height: 30vw;
   min-width: 300px;
   min-height: 168.75px;
 }
