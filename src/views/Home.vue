@@ -15,7 +15,7 @@
     src="dev-photo.jpeg" 
     :leftImg='true' 
     description='Previously worked in roles such as a Full-Stack Developer, Backend Developer, WPF C# developer, and more.' 
-    title="David's 4+ Years of Experience"
+    title="David's 5+ Years of Experience"
     btnText="Learn More"
     destination='/resume'/>
   <PictureQuote 
